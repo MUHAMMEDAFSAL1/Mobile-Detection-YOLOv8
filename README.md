@@ -21,7 +21,7 @@ Open your terminal and clone this project:
 ```bash
 git clone [https://github.com/your-username/Mobile-Detection-YOLOv8.git](https://github.com/your-username/Mobile-Detection-YOLOv8.git)
 cd Mobile-Detection-YOLOv8
-2. Install Dependencies
+### 2. Install Dependencies
 
 Install all the necessary libraries required to run the project:
 Bash
