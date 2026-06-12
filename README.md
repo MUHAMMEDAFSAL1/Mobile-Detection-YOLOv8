@@ -6,9 +6,39 @@ This project provides a complete setup for real-time mobile phone detection usin
 
 ---
 
+# 📱 Mobile Detection YOLOv8
+
+This project enables real-time mobile phone detection using the YOLOv8 model. It provides a straightforward workflow to clone, install, test, and even train your own custom detection model.
+
+---
+
 ## 🚀 Getting Started
 
-### 1. Prerequisites
-Ensure you have Python installed. Install the required libraries using:
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+Open your terminal and clone this project:
 ```bash
+git clone [https://github.com/your-username/Mobile-Detection-YOLOv8.git](https://github.com/your-username/Mobile-Detection-YOLOv8.git)
+cd Mobile-Detection-YOLOv8
+2. Install Dependencies
+
+Install all the necessary libraries required to run the project:
+Bash
+
 pip install -r requirements.txt
+
+3. Running and Testing the Detection
+
+Once the setup is complete, you can test the program using the following command:
+Bash
+
+python detect.py --weights best.pt
+
+How to verify:
+
+    After running the command, a camera window will automatically open.
+
+    Point your camera at a mobile phone.
+
+    The system should draw a bounding box around the phone and display the label "Mobile" in real-time.
